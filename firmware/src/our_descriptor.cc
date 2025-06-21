@@ -746,8 +746,6 @@ const our_descriptor_def_t our_descriptors[] = {
         .pid = 0x0004, // Replace with actual Product ID
         .descriptor = report_descriptor_mouse_device,
         .descriptor_length = sizeof(report_descriptor_mouse_device),
-        .input_callback = nullptr,
-        .output_callback = nullptr,
     },
     {
         .idx = 7,
@@ -755,8 +753,6 @@ const our_descriptor_def_t our_descriptors[] = {
         .pid = 0x1001, // Replace with actual Product ID
         .descriptor = report_descriptor_button_device,
         .descriptor_length = sizeof(report_descriptor_button_device),
-        .input_callback = nullptr,
-        .output_callback = nullptr,
     }
 };
 
