@@ -1,4 +1,4 @@
-# HID Remapper
+# HID Remapper 
 
 _For user documentation please see the project's website at [remapper.org](https://www.remapper.org/)._
 
