@@ -10,7 +10,7 @@ const uint8_t REPORT_ID_KEYBOARD = 2;
 const uint8_t REPORT_ID_CONSUMER = 3;
 
 // Mouse device descriptor
-const uint8_t report_descriptor_mouse[] = {
+const uint8_t report_descriptor_mouse_device[] = {
   0x05, 0x01,        // Usage Page (Generic Desktop)
   0x09, 0x02,        // Usage (Mouse)
   0xA1, 0x01,        // Collection (Application)
@@ -745,7 +745,7 @@ const our_descriptor_def_t our_descriptors[] = {
         .vid = 0xdf04, // Replace with actual Vendor ID
         .pid = 0x0004, // Replace with actual Product ID
         .descriptor = report_descriptor_mouse,
-        .descriptor_length = sizeof(report_descriptor_mouse),
+        .descriptor_length = sizeof(report_descriptor_mouse_device),
         .input_callback = nullptr,
         .output_callback = nullptr,
     },
@@ -754,7 +754,7 @@ const our_descriptor_def_t our_descriptors[] = {
         .vid = 0x0554, // Replace with actual Vendor ID
         .pid = 0x1001, // Replace with actual Product ID
         .descriptor = report_descriptor_buttons,
-        .descriptor_length = sizeof(report_descriptor_buttons),
+        .descriptor_length = sizeof(report_descriptor_button_device),
         .input_callback = nullptr,
         .output_callback = nullptr,
     }
