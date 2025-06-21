@@ -742,17 +742,17 @@ const our_descriptor_def_t our_descriptors[] = {
     },
     {
         .idx = 6,
-        .vid = 0xdf04, // Replace with actual Vendor ID
-        .pid = 0x0004, // Replace with actual Product ID
         .descriptor = report_descriptor_mouse_device,
         .descriptor_length = sizeof(report_descriptor_mouse_device),
+        .vid = 0xdf04, 
+        .pid = 0x0004, 
     },
     {
         .idx = 7,
-        .vid = 0x0554, // Replace with actual Vendor ID
-        .pid = 0x1001, // Replace with actual Product ID
         .descriptor = report_descriptor_button_device,
         .descriptor_length = sizeof(report_descriptor_button_device),
+        .vid = 0x0554, 
+        .pid = 0x1001, 
     }
 };
 
