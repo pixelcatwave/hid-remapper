@@ -56,7 +56,4 @@ extern const uint32_t config_report_descriptor_length;
 extern const uint8_t boot_kb_report_descriptor[];
 extern const uint32_t boot_kb_report_descriptor_length;
 
-extern const uint8_t report_descriptor_mouse_device[];
-extern const uint8_t report_descriptor_button_device[];
-
 #endif
